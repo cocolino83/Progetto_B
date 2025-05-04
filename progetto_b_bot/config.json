@@ -1,0 +1,14 @@
+{
+  "name": "Progetto B - Trading Bot",
+  "version": "1.0.0",
+  "slug": "progetto_b_bot",
+  "description": "Bot di trading cripto avanzato con AI e integrazione Home Assistant",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "image": null,
+  "host_network": true,
+  "map": ["config:rw","data:rw","ssl:rw"]
+}

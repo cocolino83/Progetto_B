@@ -1,0 +1,16 @@
+python-dotenv
+python-binance
+python-telegram-bot
+openai
+pandas
+requests
+flask
+prometheus_client
+paho-mqtt
+stable-baselines3
+gym
+textblob
+twilio
+sendgrid
+backtrader
+ccxt

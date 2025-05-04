@@ -1,0 +1,31 @@
+# Configurazione principale del bot
+
+strategy: anti_dump_pro_pump
+timeframes:
+  - 15m
+  - 1h
+  - 4h
+
+assets:
+  - BTCUSDT
+  - ETHUSDT
+
+risk_management:
+  stop_loss: 0.03       # 3%
+  take_profit: 0.06     # 6%
+  trailing_stop: 0.015  # 1.5%
+  min_volume: 500000
+  min_market_cap: 10000000
+
+telegram:
+  enabled: true
+  chat_id: ${TELEGRAM_CHAT_ID}
+
+prometheus:
+  port: 8000
+
+dashboard:
+  port: 5050
+
+tradingview:
+  webhook_secret: ${TRADINGVIEW_WEBHOOK_SECRET}

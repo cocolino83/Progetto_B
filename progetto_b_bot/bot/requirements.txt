@@ -1,0 +1,6 @@
+# Dipendenze Python
+requests
+pandas
+python-binance
+python-telegram-bot
+openai
